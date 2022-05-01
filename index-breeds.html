@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Breeds</title>
+	<meta charset="utf-8">
+	<meta name="description" content="This is the homepage for our website">
+	<script type="text/javascript" src="javascript.js"></script>
+	<script src="https://kit.fontawesome.com/086af7634f.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lora:ital,wght@0,400;0,500;0,700;1,400&family=Oswald:wght@300&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:wght@200;400;600&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:wght@500&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">	
+</head>
+
+<body onload="DateAndTime()">
+	<div class="navigation">
+		<div class="card-white" id="introduction">
+			<h1>1, 2, 3 little cats</h1>
+		</div>
+	</div>	
+
+	<div class="container">	
+		<div class="card-white2">
+		<h2>Breeds</h2>
+			<p>Discover below the main cat breeds and how cute they all are! More to come every Sunday!</p>
+		</div>	
+	</div> 
+
+	<div class="flex-container">
+		<div class="flex-card">
+			<img src="images/british-shorthair.jpeg" class="flexcard-image" 
+				width="300" height="300"
+				alt="British Shorthair">
+			<p>British Shorthair</p>
+		</div>
+		<div class="flex-card" >
+			<img src="images/bengal.jpg" class="flexcard-image"
+				width="300" height="300"
+				alt="Bengal">
+			<p>Bengal</p>
+		</div>
+		<div class="flex-card">
+			<img src="images/norwegian.jpg" class="flexcard-image"
+				width="300" height="300"
+				alt="Norwegian">
+			<p>Norwegian</p>
+		</div>
+		<div class="flex-card">
+			<img src="images/kinkalow.jpg" class="flexcard-image"
+				width="300" height="300"
+				alt="Kinkalow">
+			<p>Kinkalow</p>
+		</div>
+		<div class="flex-card">
+			<img src="images/toyger.jpeg" class="flexcard-image"
+				width="300" height="300"
+				alt="Toyger">
+			<p>Toyger</p>
+		</div>
+		<div class="flex-card">
+			<img src="images/ocicat.jpg" class="flexcard-image"
+				width="300" height="300"
+				alt="Ocicat">
+			<p>Ocicat</p>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="card-white2">
+				<p>Want to learn more about cat breeds?</p>
+				<button onclick="CopyButton()">Click here!</button>
+				<p><a href="index.html">Homepage</a></p>
+				<p>Current date and time is <span id="date-time"></span>.</p>
+		</div>
+	</div>
+
+</body>
+
+</html>

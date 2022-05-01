@@ -1,0 +1,156 @@
+body {
+    background-image: url('background.jpeg'); /*light blue*/
+   	color: rgb(109, 136, 126);
+    font-family: 'Lora', serif;;
+    font-size: 17px;
+  
+}
+
+h1,h2,h3 {font-family: 'Ubuntu', sans-serif;
+	}
+h2,h3 {color: rgb(63, 137, 117); /*forest green*/
+	}
+
+h1 {
+	color: rgb(47, 77, 111);/*navy blue*/
+	font-weight: 900;
+	font-size: 50px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 23px;
+	}
+
+p {
+	color: rgb(80, 90, 86); /*grey*/
+	font-weight: 400;
+	}
+
+a {
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	color: rgb(157, 193, 210); /*baby blue*/
+	font-weight: 600;
+	font-size: 18px;
+	}
+a:hover {
+	color: rgb(47, 77, 111); /*navy blue*/
+	}
+
+
+
+/* Custom design with class */
+
+.navigation {
+	width: 97%;     /* Fix the width first*/
+	margin: 40px auto; /* Let CSS compute the same left & right margins automatically*/
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding-top: 0;
+	}
+
+.container {
+	width: 60%;     /* Fix the width first*/
+	margin: 40px auto; /* Let CSS compute the same left & right margins automatically*/
+	margin-top: 250px;
+	}	
+
+.footer {
+	width: 60%;     /* Fix the width first*/
+	margin: 40px auto; /* Let CSS compute the same left & right margins automatically*/
+	}	
+
+.card-white {
+	background-color: #F7FAFD;
+	padding: 6px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 3%;
+	margin: 0px 0px;
+	margin-top: 0px;
+	text-align: center;
+	}
+
+.card-white2{
+	background-color: #F7FAFD;
+	padding: 40px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 3%;
+	margin: 20px 0px;
+	text-align: center;
+	}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+} /*ça c'est pour créer les boîtes flex que sur les 6 boîtes que j'ai mises sans que tout le reste devienne flex et incontrôlable aussi*/
+
+.flex-card {
+	background-color: #F7FAFD;
+	padding: 40px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 3%;
+	margin: 20px 0px;
+	text-align: center;
+	flex: 0 1 24%; /*ça c'est la même chose que card-white2 avec la propriété flex en plus, ça sert à contrpoler la taille des card flex*/
+}
+
+.flexcard-image {
+	border-radius: 5%;
+} /* ça c'est juste pour que les photos de chats aient les coins arrondis mais pas ronds comme les autres images*/
+
+
+.img-circle{
+	border-radius: 50%;
+	}
+
+.btn-babyblue{
+	background-color: rgb(157, 193, 210); /*baby blue*/
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	}
+.btn-babyblue:hover {
+	background-color:rgb(47, 77, 111) ; /*navy blue*/
+	color: white;
+	}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	}
+.list-inline li {
+	display: inline-block;
+	padding: 10px;
+	}
+
+.list-inline i {
+	font-size: 50px;
+	color: #D5C8B6; /*sand color*/
+	}
+
+.list-inline i:hover {
+	color: rgb(47, 77, 111); /*navy blue*/
+	}
+
+/* Design adjustments using id */
+
+#introduction p{
+	margin-bottom: 40px;
+	}
+
+/* Responsive part */
+
+@media (max-width: 760px) {
+	.container{
+	width: 600px;
+	}
+
+@media (max-width: 500px) {
+	.container{
+	width: 400px;
+	}

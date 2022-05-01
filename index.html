@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<meta charset="utf-8">
+	<meta name="description" content="This is the homepage for our website">
+	<script type="text/javascript" src="javascript.js"></script>
+	<script src="https://kit.fontawesome.com/086af7634f.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lora:ital,wght@0,400;0,500;0,700;1,400&family=Oswald:wght@300&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:wght@200;400;600&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:wght@500&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">	
+</head>
+
+<body onload="DateAndTime()">
+	<div class="navigation">
+		<div class="card-white" id="introduction">
+			<h1>1, 2, 3 little cats</h1>
+		</div>
+	</div>	
+
+	<div class="container">	
+		<div class="card-white2">
+		<h2>Cat : All about cats</h2>
+			<p>Our website world contains all the information you need to take good care of your cat and ensure its well-being. All our guides are there to help you adopt a kitten, feed a cat, educate it and look after its health throughout its life. For the curious and cat lovers, our detailed breed sheets will complete your knowledge on all cats. </p>
+			<p>To help you in your daily life, our website offers you services such as the breed test to find the cat that suits you or the search engine to find a name for your cat. The cat news also has an important place in order to allow everyone to keep up with the latest cat information.
+			 </p>
+			<button onclick="ConfirmDialog()">Do you want to discover cats with us?</button>
+		</div>	 
+		
+		<div class="card-white2">
+			<h2>Have a look</h2>
+			<ul class="list-inline">
+				<li>
+					<figure>
+  						<a href="index-food.html"><img src="images/cat-food.png"
+  							width="136" height="136"
+    							alt="Cat with kibbles" class="img-circle">
+ 								 <figcaption>Food</figcaption>
+ 						</a>		 
+ 					</figure>
+				</li>
+				<li>
+					<figure>
+  						<a href="index-breeds.html"><img src="images/cat-breed.png"
+    							width="136" height="136"
+    							alt="Cat with yellow eyes"
+    							class="img-circle">
+ 								 <figcaption>Breeds</figcaption> 
+ 						</a>
+ 					</figure>
+				</li>
+				<li>
+					<figure>
+  						<a href="index-adopt.html"><img src="images/cat-adoption.png" width="136" height="136" alt="Cat in the grass" class="img-circle">
+ 							<figcaption>Adoption</figcaption> 
+ 						</a>
+ 					</figure>
+				</li>
+			</ul>
+		</div>
+	<div class="card-white2">
+				<a href="index-about-us.html">More about us</a>
+				<p>Current date and time is <span id="date-time"></span>.</p>
+	</div>
+
+
+</body>
+
+</html>
